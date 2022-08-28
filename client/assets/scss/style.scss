@@ -1,0 +1,16 @@
+@import 'colors';
+
+body {
+background-color: $bg;
+
+h4 {
+   font-size: 2em;
+}
+
+
+}
+
+.card {
+ border: 1px solid gray;
+ border-radius: 10px;
+}
