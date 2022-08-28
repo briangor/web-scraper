@@ -1,8 +1,18 @@
 body {
   background-color: rgb(234, 232, 232);
+  margin: 0;
+  padding: 0;
 }
-body h4 {
+
+.navbar {
+  background-color: rgb(170, 167, 167);
+  width: 100%;
+  padding: 1em 4em;
+  margin: 0 0 2em 0;
+}
+.navbar h4 {
   font-size: 2em;
+  color: rgb(7, 123, 125);
 }
 
 .card {
@@ -11,6 +21,10 @@ body h4 {
 }
 .card img {
   object-fit: cover;
+}
+
+footer {
+  padding: 2em 4em;
 }
 
 /*# sourceMappingURL=style.css.map */
