@@ -5,7 +5,7 @@ const card_row = document.querySelector('.card-row')
 // const feed = document.createElement("div");
 const btn = document.querySelector('.getdata');
 
-// create a card
+// create a card 
 let card = document.createElement('div');
 let title = document.createElement('p');
 let price = document.createElement('p');
@@ -53,7 +53,7 @@ let getBooks = () => {
         .catch(err => console.error(err));
 
 }
-
+getBooks();
 
 btn?.addEventListener('click', getBooks);
 
