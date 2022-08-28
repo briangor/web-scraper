@@ -9,7 +9,7 @@ const app = express();
 // URL of the page we want to scrape
 //const url = "https://scrapeme.live/shop/";
 const url = 'https://yum.co.ke/menu/kfc-junction';
-
+ 
 //  axios.get(url)
 //       .then(({ data }) => console.log(data));
 

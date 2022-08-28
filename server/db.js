@@ -19,6 +19,6 @@ export const books = (req, res) => {
   conn.query('SELECT * FROM books', (err, data) => {
     if (err) throw err;
     res.json(data);
-  });
+  }); 
   return res;
 }

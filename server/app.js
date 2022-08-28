@@ -7,7 +7,7 @@ import { conn } from './db.js';
 // URL of the page we want to scrape
 const url = 'https://textbookcentre.com/catalogue/category/books';
 const baseUrl = 'https://textbookcentre.com/';
-
+ 
 // Async function which scrapes the data
 async function scrapeData() {
     try {
