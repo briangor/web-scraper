@@ -4,6 +4,9 @@ body {
     background-color: $bg;
     margin: 0;
     padding: 0;
+    background-image: url('../images/image-op-1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .navbar {
@@ -19,12 +22,26 @@ body {
 
 
 .card {
-    border: 1px solid gray;
     border-radius: 10px;
-
+    width: 18rem;
 
     img {
         object-fit: cover;
+
+    }
+}
+
+.placeholder-img {
+    height: 10em;
+    background-color: $gray;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+
+}
+.page-link {
+    color: $link;
+    &:hover{
+        color: $link;
     }
 }
 

@@ -2,25 +2,42 @@ body {
   background-color: rgb(234, 232, 232);
   margin: 0;
   padding: 0;
+  background-image: url("../images/image-op-1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .navbar {
-  background-color: rgb(170, 167, 167);
+  background-color: rgb(53, 53, 53);
   width: 100%;
   padding: 1em 4em;
   margin: 0 0 2em 0;
 }
 .navbar h4 {
   font-size: 2em;
-  color: rgb(7, 123, 125);
+  color: rgb(187, 189, 189);
 }
 
 .card {
-  border: 1px solid gray;
   border-radius: 10px;
+  width: 18rem;
 }
 .card img {
   object-fit: cover;
+}
+
+.placeholder-img {
+  height: 10em;
+  background-color: rgb(109, 108, 108);
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.page-link {
+  color: rgb(7, 123, 125);
+}
+.page-link:hover {
+  color: rgb(7, 123, 125);
 }
 
 footer {
