@@ -9,5 +9,8 @@ body h4 {
   border: 1px solid gray;
   border-radius: 10px;
 }
+.card img {
+  object-fit: cover;
+}
 
 /*# sourceMappingURL=style.css.map */

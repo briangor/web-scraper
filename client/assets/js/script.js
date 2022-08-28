@@ -1,7 +1,7 @@
 //'use strict'; 
 //import axios from "axios";
 
-const home = document.querySelector('.home');
+const card_row = document.querySelector('.card-row')
 // const feed = document.createElement("div");
 const btn = document.querySelector('.getdata');
 
@@ -10,7 +10,7 @@ let card = document.createElement('div');
 let title = document.createElement('p');
 let price = document.createElement('p');
 card.append(title, price);
-card.classList.add('card');
+//card.classList.add('cardzzz', 'col-', 'col-md-3');
 title.classList.add('card-title');
 price.classList.add('card-price');
 console.log(card);
@@ -43,14 +43,14 @@ let getBooks = () => {
                 let title = document.createElement('p');
                 let price = document.createElement('p');
                 card.append(title, price);
-                card.classList.add('card');
+                card.classList.add('card', 'col-', 'col-md-3');
                 title.classList.add('card-title');
                 price.classList.add('card-price');
                 title.innerHTML = book.name;
                 price.innerHTML = book.price;
                 console.log(card)
 
-                home.append(card)
+                card_row.append(card)
 
             })
         })
