@@ -10,17 +10,13 @@ let card = document.createElement('div');
 let title = document.createElement('p');
 let price = document.createElement('p');
 card.append(title, price);
-//card.classList.add('cardzzz', 'col-', 'col-md-3');
 title.classList.add('card-title');
 price.classList.add('card-price');
-console.log(card);
-console.log(card.title);
 
 
-// if (typeof window !== 'undefined') {
-//     //here `window` is available, so `window.document` (or simply `document`) is available too
-//     const feed = document.createElement("div");
-//   }
+// Search 
+let search_input = document.querySelector('search-input');
+const search_btn = document.querySelector('search-btn');
 
 const url = 'http://localhost:3000/books';
 let booksData = [];
@@ -56,13 +52,8 @@ let getBooks = () => {
         })
         .catch(err => console.error(err));
 
-
-
 }
 
-let showAction = () => {
-    console.log('some activity')
-}
 
 btn?.addEventListener('click', getBooks);
 
@@ -73,3 +64,10 @@ let display = (t, p) => {
     price.innerHTML = p;
 
 }
+
+let getSearchInput = () => {
+    console.log("search");
+}
+
+search_btn?.addEventListener('click', getSearchInput);
+
