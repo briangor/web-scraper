@@ -15,8 +15,8 @@ price.classList.add('card-price');
 
 
 // Search 
-let search_input = document.querySelector('search-input');
-const search_btn = document.querySelector('search-btn');
+let search_input = document.querySelector('.search-input');
+const search_btn = document.querySelector('.search-btn');
 
 const url = 'http://localhost:3000/books';
 let booksData = [];
@@ -32,7 +32,7 @@ let getBooks = () => {
         .then(response => response.json())
         .then(data => {
             booksData = data;
-            console.log(booksData);
+            // console.log(booksData);
             booksData.forEach(book => {
                 //display(book.title, book.price);
                 let card = document.createElement('div');
@@ -44,7 +44,7 @@ let getBooks = () => {
                 price.classList.add('card-price');
                 title.innerHTML = book.name;
                 price.innerHTML = book.price;
-                console.log(card)
+                // console.log(card)
 
                 card_row.append(card)
 
@@ -66,7 +66,17 @@ let display = (t, p) => {
 }
 
 let getSearchInput = () => {
-    console.log("search");
+    let keyword = search_input.value;
+    //console.log(booksData)
+
+    booksData.forEach(book => {
+        if (book.name == keyword) {
+            console.log('Found the book!');
+            console.log(book.name)
+            console.log(book.price);
+        }
+    })
+
 }
 
 search_btn?.addEventListener('click', getSearchInput);
