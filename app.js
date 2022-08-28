@@ -32,7 +32,7 @@ async function scrapeData() {
             // Store the textcontent in the above object
             book.title = $(el).find($(".product-card-name")).text();
             book.author = $(el).find($("span.text-muted")).text();
-            book.price = $(el).find($(".stockrecord-price-current")).text().trim();
+            book.price = $(el).find($(".stockrecord-price-current")).text().trim(); // implement conversion to number
             book.image = `${baseUrl}`+$(el).find($('.product-card-img-container img')).attr().src;
 
             if (book.author == ' ' || book.author == null) {
@@ -57,12 +57,12 @@ async function scrapeData() {
 
         // Write scraped books data in mysql db once 
         // Implement a mechanism to prevent duplicates
-        /* conn.query( `INSERT INTO books (name, price) VALUES ? `, 
-        [books.map(book => [book.name, book.price])],(err, res) => {
+        conn.query( `INSERT INTO books (title, author, price, image) VALUES ? `, 
+        [books.map(book => [book.title, book.author, book.price, book.image])],(err, res) => {
             if(err) throw err;
             console.log("Data inserted successfully!");
         }
-        )  */
+        ) 
 
     } catch (err) {
         console.error(err);

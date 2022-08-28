@@ -37,14 +37,20 @@ let getBooks = () => {
                 //display(book.title, book.price);
                 let card = document.createElement('div');
                 let title = document.createElement('p');
+                let author = document.createElement('p');
                 let price = document.createElement('p');
-                card.append(title, price);
+                let image = document.createElement('img');
+                card.append(image, title, author, price);
                 card.classList.add('card', 'col-', 'col-md-3');
                 title.classList.add('card-title');
+                author.classList.add('card-author');
                 price.classList.add('card-price');
-                title.innerHTML = book.name;
+                image.classList.add('card-image');
+                title.innerHTML = book.title;
+                author.innerHTML = book.author;
                 price.innerHTML = book.price;
-                // console.log(card)
+                image.src = book.image;
+                 console.log(card)
 
                 card_row.append(card)
 
