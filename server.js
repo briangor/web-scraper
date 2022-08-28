@@ -10,7 +10,6 @@ const port = 3000;
 
 
 app.get('/', (req, res) => {
-    res.render('index', { title: 'Hey', message: 'Hello there!' })
     res.send('REST API with Node.js!');
 });
 app.get('/books', books);

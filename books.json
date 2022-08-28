@@ -1,186 +1,278 @@
 [
   {
-    "name": "No Picnic on Mount Kenya",
-    "price": "KES 1,690"
+    "title": "No Picnic on Mount Kenya",
+    "author": "Felice Benuzzi",
+    "price": "KES 1,690",
+    "image": "https://textbookcentre.com//media/cache/0e/a4/0ea4a55f8998e1c34d6a66af65a88205.jpg"
   },
   {
-    "name": "Finding Me: A Memoir - THE INSTANT SUNDAY …",
-    "price": "KES 2,100"
+    "title": "Finding Me: A Memoir - THE INSTANT SUNDAY …",
+    "author": "Viola Davis",
+    "price": "KES 2,100",
+    "image": "https://textbookcentre.com//media/cache/33/9d/339d57baf7e099e8b6cf45a94707f046.jpg"
   },
   {
-    "name": "The Power of Habit: Why we do what …",
-    "price": "KES 1,390"
+    "title": "The Power of Habit: Why we do what …",
+    "author": "Charles Duhigg",
+    "price": "KES 1,390",
+    "image": "https://textbookcentre.com//media/cache/e7/43/e743cb825333e3d2d1ee52ed0bb7a5f0.jpg"
   },
   {
-    "name": "Hot Hippo (Kenn)",
-    "price": "KES 558"
+    "title": "Hot Hippo (Kenn)",
+    "author": "Mwenye Hadithi",
+    "price": "KES 558",
+    "image": "https://textbookcentre.com//media/cache/17/a7/17a73cb4d36b722ffe2ea99b71db9137.jpg"
   },
   {
-    "name": "Becoming Michelle Obama Adapted for Young Readers",
-    "price": "KES 1,990"
+    "title": "Becoming Michelle Obama Adapted for Young Readers",
+    "author": "Michelle Obama",
+    "price": "KES 1,990",
+    "image": "https://textbookcentre.com//media/cache/3c/db/3cdb8f6d9a0182d41c62703a041b152e.jpg"
   },
   {
-    "name": "Amazon Unbound",
-    "price": "KES 2,250"
+    "title": "Amazon Unbound",
+    "author": "Brad Stone",
+    "price": "KES 2,250",
+    "image": "https://textbookcentre.com//media/cache/b5/f6/b5f6c2ccffbdea46c720a05574f1a994.jpg"
   },
   {
-    "name": "Finding Me: A Memoir - THE INSTANT SUNDAY …",
-    "price": "KES 2,100"
+    "title": "Finding Me: A Memoir - THE INSTANT SUNDAY …",
+    "author": "Viola Davis",
+    "price": "KES 2,100",
+    "image": "https://textbookcentre.com//media/cache/33/9d/339d57baf7e099e8b6cf45a94707f046.jpg"
   },
   {
-    "name": "Cheupe na Cheusi 4f",
-    "price": "KES 210"
+    "title": "Cheupe na Cheusi 4f",
+    "author": "Hamisi babusa",
+    "price": "KES 210",
+    "image": "https://textbookcentre.com//media/cache/af/1d/af1d300aed5f67079fde8fca9916b7c2.jpg"
   },
   {
-    "name": "Thinking, fast and slow",
-    "price": "KES 1,090"
+    "title": "Thinking, fast and slow",
+    "author": "Daniel Kahneman",
+    "price": "KES 1,090",
+    "image": "https://textbookcentre.com//media/cache/1b/14/1b146a33e64b318e3d6b4a4d10eb85dc.jpg"
   },
   {
-    "name": "Good News Bible",
-    "price": "KES 850"
+    "title": "Good News Bible",
+    "author": "Bible society",
+    "price": "KES 850",
+    "image": "https://textbookcentre.com//media/cache/79/c2/79c25b7942e24616c40384328891d9c7.jpg"
   },
   {
-    "name": "Ikigai: The Japanese Secret to a Long and …",
-    "price": "KES 1,990"
+    "title": "Alka Jumbo colouring book Assorted (4)",
+    "author": "Alka Publication",
+    "price": "KES 200",
+    "image": "https://textbookcentre.com//media/cache/18/09/1809483eda5f7b7dd27fe8f365a61613.jpg"
   },
   {
-    "name": "Alka Jumbo colouring book Assorted (4)",
-    "price": "KES 200"
+    "title": "The Art of War (Penguin)",
+    "author": "Sun Tzu",
+    "price": "KES 790",
+    "image": "https://textbookcentre.com//media/cache/1c/8e/1c8e4d033e5deeb8de89048647690501.jpg"
   },
   {
-    "name": "The Art of War (Penguin)",
-    "price": "KES 790"
+    "title": "The Richest Man In Babylon-Classic",
+    "author": "George S Clason",
+    "price": "KES 400",
+    "image": "https://textbookcentre.com//media/cache/0f/b8/0fb835f948fb6068292f526747a37915.jpg"
   },
   {
-    "name": "Purple Hibiscus",
-    "price": "KES 1,200"
+    "title": "Ikigai: The Japanese Secret to a Long and …",
+    "author": "Hector Garcia , Francesc…",
+    "price": "KES 1,990",
+    "image": "https://textbookcentre.com//media/cache/e7/a4/e7a4aafdf06ab1f6f57eff3fa28833e7.jpg"
   },
   {
-    "name": "The Richest Man In Babylon-Classic",
-    "price": "KES 400"
+    "title": "Purple Hibiscus",
+    "author": "Chimamanda Ngozi Adichie",
+    "price": "KES 1,200",
+    "image": "https://textbookcentre.com//media/cache/72/82/7282ef39814e893d1b6affb9045b56d9.jpg"
   },
   {
-    "name": "A New Earth: Create a Better Life",
-    "price": "KES 800"
+    "title": "A New Earth: Create a Better Life",
+    "author": "Eckhart Tolle",
+    "price": "KES 800",
+    "image": "https://textbookcentre.com//media/cache/8f/68/8f681efc393634a3d5171922a953e170.jpg"
   },
   {
-    "name": "Vikas Drawing & Colouring 1",
-    "price": "KES 170"
+    "title": "Vikas Drawing & Colouring 1",
+    "author": "Vikas",
+    "price": "KES 170",
+    "image": "https://textbookcentre.com//media/cache/d2/a3/d2a321ea23637fdf895973c71d7088a2.jpg"
   },
   {
-    "name": "Pause: How to press pause before life does …",
-    "price": "KES 400"
+    "title": "Pause: How to press pause before life does …",
+    "author": "Danielle North",
+    "price": "KES 400",
+    "image": "https://textbookcentre.com//media/cache/e0/bf/e0bf94efc7eeb0c6c667156c34ebfb43.jpg"
   },
   {
-    "name": "The Sex Lives of African Women",
-    "price": "KES 1,500"
+    "title": "The Sex Lives of African Women",
+    "author": "Nana Darkoa Sekyiamah",
+    "price": "KES 1,500",
+    "image": "https://textbookcentre.com//media/cache/b5/a0/b5a0f13911c64dd92b9e219010864622.jpg"
   },
   {
-    "name": "Percy Jackson and the Sea of Monsters (Book …",
-    "price": "KES 850"
+    "title": "Percy Jackson and the Sea of Monsters (Book …",
+    "author": "Rick  Riordan",
+    "price": "KES 850",
+    "image": "https://textbookcentre.com//media/cache/ba/55/ba551d7be2f727afe75019d6a8a0d3b4.jpg"
   },
   {
-    "name": "Thousand Splendid Suns (Random- US)",
-    "price": "KES 950"
+    "title": "One Hundred Years of Solitude",
+    "author": "Marquez",
+    "price": "KES 600",
+    "image": "https://textbookcentre.com//media/cache/32/d6/32d6e7064d9707d3c78935513744dcd8.jpg"
   },
   {
-    "name": "The Son of Neptune (Heroes of Olympus Book …",
-    "price": "KES 850"
+    "title": "Kaponea Chupuchupu",
+    "author": "Akberali manji",
+    "price": "KES 219",
+    "image": "https://textbookcentre.com//media/cache/56/7d/567dfc13fa3d581242b81a7670b80377.jpg"
   },
   {
-    "name": "The Power of Positive Thinking for Young People",
-    "price": "KES 550"
+    "title": "Secret Lives of Baba Segi's Wives (Serpent's Tail)",
+    "author": "Lola Shoneyin",
+    "price": "KES 1,450",
+    "image": "https://textbookcentre.com//media/cache/cf/1e/cf1e9879a86ad03ad8b97f569769d109.jpg"
   },
   {
-    "name": "Book Lovers: The new enemies-to-lovers romcom from TikTok …",
-    "price": "KES 1,100"
+    "title": "Kenya General Map (Folded on Paper) - Nairobi …",
+    "author": "",
+    "price": "KES 820",
+    "image": "https://textbookcentre.com//media/cache/74/9e/749eda69daa9eec857893760a5793c97.jpg"
   },
   {
-    "name": "Secret Lives of Baba Segi's Wives (Serpent's Tail)",
-    "price": "KES 1,450"
+    "title": "Outliers: The Story of Success (Small)",
+    "author": "Malcolm Gladwell",
+    "price": "KES 890",
+    "image": "https://textbookcentre.com//media/cache/d4/af/d4af560ddf16391644a26fd9659d5027.jpg"
   },
   {
-    "name": "Kenya General Map (Folded on Paper) - Nairobi …",
-    "price": "KES 820"
+    "title": "Who Moved My Cheese?",
+    "author": "Spencer Johnson",
+    "price": "KES 550",
+    "image": "https://textbookcentre.com//media/cache/00/f1/00f1e0889554d1ffe9b6b21231c6e0dc.jpg"
   },
   {
-    "name": "One Hundred Years of Solitude",
-    "price": "KES 600"
+    "title": "Pablo Escobar: My Father",
+    "author": "Juan Pablo Escobar",
+    "price": "KES 1,290",
+    "image": "https://textbookcentre.com//media/cache/b9/d4/b9d45bfd0bdccdecee886a297059c513.jpg"
   },
   {
-    "name": "Kaponea Chupuchupu",
-    "price": "KES 219"
+    "title": "MBS: The Rise to Power of Mohammed Bin …",
+    "author": "Ben Hubbard",
+    "price": "KES 1,490",
+    "image": "https://textbookcentre.com//media/cache/13/11/1311baf6c78e0d4e01cc30624352b79c.jpg"
   },
   {
-    "name": "Outliers: The Story of Success (Small)",
-    "price": "KES 890"
+    "title": "Lean In: Women, Work, and the Will to …",
+    "author": "Sheryl Sandberg",
+    "price": "KES 1,050",
+    "image": "https://textbookcentre.com//media/cache/e7/91/e79167b26e32ade83227cb5d1b245e82.jpg"
   },
   {
-    "name": "Think and Grow Rich (UK)",
-    "price": "KES 1,090"
+    "title": "Thousand Splendid Suns (Random- US)",
+    "author": "Khaled Hosseini",
+    "price": "KES 950",
+    "image": "https://textbookcentre.com//media/cache/33/e2/33e2fccfe26fffcba3a9f02b4d05429d.jpg"
   },
   {
-    "name": "When Breath Becomes Air",
-    "price": "KES 1,050"
+    "title": "Challenge for Africa (Soft Back)",
+    "author": "Wangari Maathai",
+    "price": "KES 1,150",
+    "image": "https://textbookcentre.com//media/cache/a8/d7/a8d72d7839a1db581bf303007caf6d0c.jpg"
   },
   {
-    "name": "Dead Aid:Why Aid is not working and how …",
-    "price": "KES 890"
+    "title": "Best of Whispers: Politics, Family and Society (Twaweza)",
+    "author": "Wahome Mutahi",
+    "price": "KES 650",
+    "image": "https://textbookcentre.com//media/cache/9f/ee/9feece33ca99ca6c7b8af376f462d512.jpg"
   },
   {
-    "name": "Who Moved My Cheese?",
-    "price": "KES 550"
+    "title": "Little Red Hen:Lady bird Read it yourself Level …",
+    "author": "Ladybird",
+    "price": "KES 200",
+    "image": "https://textbookcentre.com//media/cache/e8/9b/e89b37bb16e733e1c3798b694c3b3f9b.jpg"
   },
   {
-    "name": "Pablo Escobar: My Father",
-    "price": "KES 1,290"
+    "title": "Think and Grow Rich (UK)",
+    "author": "Napoleon Hill",
+    "price": "KES 1,090",
+    "image": "https://textbookcentre.com//media/cache/8c/69/8c69b21309f762399c1bb6ac55a01c50.jpg"
   },
   {
-    "name": "Best of Whispers: Politics, Family and Society (Twaweza)",
-    "price": "KES 650"
+    "title": "Dead Aid:Why Aid is not working and how …",
+    "author": "Dambisa Moyo",
+    "price": "KES 890",
+    "image": "https://textbookcentre.com//media/cache/87/34/8734380898f9fdd1f5abfe980420e9eb.jpg"
   },
   {
-    "name": "Transcendent kingdom",
-    "price": "KES 990"
+    "title": "The Power of Habit: Why we do what …",
+    "author": "Charles Duhigg",
+    "price": "KES 1,390",
+    "image": "https://textbookcentre.com//media/cache/e7/43/e743cb825333e3d2d1ee52ed0bb7a5f0.jpg"
   },
   {
-    "name": "MBS: The Rise to Power of Mohammed Bin …",
-    "price": "KES 1,490"
+    "title": "Book Lovers: The new enemies-to-lovers romcom from TikTok …",
+    "author": "Emily Henry",
+    "price": "KES 1,100",
+    "image": "https://textbookcentre.com//media/cache/50/dd/50dd95af2ed53d5fa0c5320b0064b9b1.jpg"
   },
   {
-    "name": "Challenge for Africa (Soft Back)",
-    "price": "KES 1,150"
+    "title": "When Breath Becomes Air",
+    "author": "Paul Kalanithi",
+    "price": "KES 1,050",
+    "image": "https://textbookcentre.com//media/cache/be/dc/bedc29130148c2b165cd903d7a77ad64.jpg"
   },
   {
-    "name": "Little Red Hen:Lady bird Read it yourself Level …",
-    "price": "KES 200"
+    "title": "Transcendent kingdom",
+    "author": "Yaa Gyasi",
+    "price": "KES 990",
+    "image": "https://textbookcentre.com//media/cache/1f/ab/1fab3cf5f2fdb9f0c7b05a3371815fd0.jpg"
   },
   {
-    "name": "Lean In: Women, Work, and the Will to …",
-    "price": "KES 1,050"
+    "title": "The Power of Positive Thinking for Young People",
+    "author": "Norman Vincent Peale",
+    "price": "KES 550",
+    "image": "https://textbookcentre.com//media/cache/91/d1/91d161b9fd15775f4877525fe977b0bc.jpg"
   },
   {
-    "name": "The Power of Habit: Why we do what …",
-    "price": "KES 1,390"
+    "title": "The Son of Neptune (Heroes of Olympus Book …",
+    "author": "Rick Riordan",
+    "price": "KES 850",
+    "image": "https://textbookcentre.com//media/cache/a7/20/a720f729a787bae357472bec8b81b152.jpg"
   },
   {
-    "name": "Sack of Money",
-    "price": "KES 215"
+    "title": "Percy Jackson and the Last Olympian",
+    "author": "rick riordan",
+    "price": "KES 850",
+    "image": "https://textbookcentre.com//media/cache/bb/f2/bbf28233f65be8ab442c9db8decad758.jpg"
   },
   {
-    "name": "Mbegu ya Ajabu",
-    "price": "KES 174"
+    "title": "Mbegu ya Ajabu",
+    "author": "Deus M.Richard",
+    "price": "KES 174",
+    "image": "https://textbookcentre.com//media/cache/fe/6c/fe6c18b533687d146c1aafe65100d884.jpg"
   },
   {
-    "name": "Go for it! 6e",
-    "price": "KES 245"
+    "title": "Go for it! 6e",
+    "author": "Moses Auta",
+    "price": "KES 245",
+    "image": "https://textbookcentre.com//media/cache/fc/63/fc63ad8a5a48d699b1999b3df4828334.jpg"
   },
   {
-    "name": "Percy Jackson and the Last Olympian",
-    "price": "KES 850"
+    "title": "Sack of Money",
+    "author": "Ngunjiri",
+    "price": "KES 215",
+    "image": "https://textbookcentre.com//media/cache/c7/ca/c7caf677bbd660a4a44209f1aa21966a.jpg"
   },
   {
-    "name": "No Feast for Kiundu Book 10",
-    "price": "KES 290"
+    "title": "No Feast for Kiundu Book 10",
+    "author": "Bracey",
+    "price": "KES 290",
+    "image": "https://textbookcentre.com//media/cache/b3/12/b31242a14158e9937b553b41db8d3595.jpg"
   }
 ]

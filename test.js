@@ -44,13 +44,11 @@ async function scrapeData() {
                 book.author = 'Publishers';
             }
 
-            console.log(book.image)
-
             books.push(book);
 
         });
         // Logs books array to the console
-        //console.dir(books);
+        console.dir(books);
         console.log(books.length);
 
 

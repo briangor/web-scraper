@@ -1,11 +1,12 @@
 import axios from 'axios';
 import cheerio from 'cheerio';
-import fs from 'fs';
+//import fs from 'fs';
 import { conn } from './db.js';
 //const app = express();
 
 // URL of the page we want to scrape
 const url = 'https://textbookcentre.com/catalogue/category/books';
+const baseUrl = 'https://textbookcentre.com/';
 
 // Async function which scrapes the data
 async function scrapeData() {
@@ -25,21 +26,27 @@ async function scrapeData() {
         // Use .each method to loop through the bookItems
         bookItems.each((idx, el) => {
             // Object holding data for each book item
-            const book = { name: '', price: 0 };
+            const book = { title: '', author: '', price: '', image: ''  };
 
-            // Select the text content of a and span elements
+            // Select the text content of the elements
             // Store the textcontent in the above object
-            book.name = $(el).find($(".product-card-name")).text();
+            book.title = $(el).find($(".product-card-name")).text();
+            book.author = $(el).find($("span.text-muted")).text();
             book.price = $(el).find($(".stockrecord-price-current")).text().trim();
+            book.image = `${baseUrl}`+$(el).find($('.product-card-img-container img')).attr().src;
+
+            if (book.author == ' ' || book.author == null) {
+                book.author = 'Publishers';
+            }
 
             books.push(book);
         });
         // Logs books array to the console
-        //console.dir(books);
+        console.dir(books);
         console.log(books.length);
 
-        /* // Write books array in books.json file
-        fs.writeFile("books.json", JSON.stringify(books, null, 2), (err) => {
+        // Write books array in books.json file
+        /* fs.writeFile("books.json", JSON.stringify(books, null, 2), (err) => {
             if (err) {
                 console.error(err);
                 return;
@@ -48,12 +55,14 @@ async function scrapeData() {
         });
         fs.close(); */
 
-        conn.query( `INSERT INTO books (name, price) VALUES ? `, 
+        // Write scraped books data in mysql db once 
+        // Implement a mechanism to prevent duplicates
+        /* conn.query( `INSERT INTO books (name, price) VALUES ? `, 
         [books.map(book => [book.name, book.price])],(err, res) => {
             if(err) throw err;
             console.log("Data inserted successfully!");
         }
-        ) 
+        )  */
 
     } catch (err) {
         console.error(err);
