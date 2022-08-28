@@ -6,6 +6,7 @@ import cheerio from 'cheerio';
 
 // URL of the page we want to scrape
 const url = 'https://textbookcentre.com/catalogue/category/books';
+const baseUrl = 'https://textbookcentre.com/';
 
 // Async function which scrapes the data
 async function scrapeData() {
@@ -25,16 +26,25 @@ async function scrapeData() {
         // Use .each method to loop through the bookItems
         bookItems.each((idx, el) => {
             // Object holding data for each book item
-            const book = { title: '', author: '', price: 0 , image: ''};
+            const book = { title: '', author: 'Publishers', price: 0, image: '' };
 
             // Select the text content of a and span elements
             // Store the textcontent in the above object
             book.title = $(el).find($(".product-card-name")).text();
-            book.author = $(el).find($(".text-muted")).text().trim();
+            // book.author = $(el).find($("span.text-muted")).text().trim();
+            book.author = $(el).find($("span.text-muted")).text();
             book.price = $(el).find($(".stockrecord-price-current")).text().trim();
-            book.image = $(el).find($('img')).attr();
+            book.image = `${baseUrl}`+$(el).find($('.product-card-img-container img')).attr().src;
 
-            console.log(book.author)
+             
+            //   const imageAttr = $('.keteranganinside img').attr();
+            //   const imageUrl = (imageAttr === undefined) ? null : imageAttr.src;
+
+            if (book.author == ' ' || book.author == null) {
+                book.author = 'Publishers';
+            }
+
+            console.log(book.image)
 
             books.push(book);
 
@@ -43,7 +53,7 @@ async function scrapeData() {
         //console.dir(books);
         console.log(books.length);
 
-        
+
 
 
     } catch (err) {
