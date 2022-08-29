@@ -14,7 +14,8 @@ async function scrapeData() {
         const { data } = await axios.get(url);
 
         // Load HTML we fetched in the previous line
-        const $ = cheerio.load(data);
+        //const $ = cheerio.load(data); --> Deprecated
+        const $ = load(data);
 
         // Select all the list items in plainlist class
         const bookItems = $(".product-item");

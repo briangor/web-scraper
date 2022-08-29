@@ -20,9 +20,13 @@ export const getBooks = (req, res) => {
 }
 
 export const getBookById = (req, res) => {
-  conn.query('SELECT * FROM books WHERE ?', (err, data) => {
+  if (!req.params.id) {
+    //("No book id found", 404);
+    throw err;
+  }
+  conn.query('SELECT * FROM books WHERE id = ?',  [req.params.id], (err, data) => {
     if (err) throw err;
-    res.json(data);
+    res.status(200).json(data);
   }); 
   return res;
 }
