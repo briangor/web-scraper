@@ -1,9 +1,10 @@
 const config = {
     db: {
-        host: "127.0.0.1",
-        user: "root2",
-        password: "#Password2",
-        database: "nodedb",
+        host: process.env.DB_HOST,
+        user: process.env.DB_USER,
+        password: process.env.DB_PASS,
+        port: process.env.PORT,
+        database: process.env.DB
     },
 };
 module.exports = config; 
