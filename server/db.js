@@ -16,9 +16,16 @@ conn.connect(function (err) {
   console.log("Database Connected!");
 });
 
-export const books = (req, res) => {
-  
+export const getBooks = (req, res) => {
   conn.query('SELECT * FROM books', (err, data) => {
+    if (err) throw err;
+    res.json(data);
+  }); 
+  return res;
+}
+
+export const getBookById = (req, res) => {
+  conn.query('SELECT * FROM books WHERE ?', (err, data) => {
     if (err) throw err;
     res.json(data);
   }); 
