@@ -12,44 +12,38 @@ const search_btn = document.querySelector('.search-btn');
 const url = 'http://localhost:3000/books';
 let booksData = [];
 
-// let getBooks = async () => {
-//     //let booksData = await axios.get(url)
-//     let booksData = await fetch(url);
-//     console.log(booksData);
-// }
+let getBooks = async () => {
+    try {
+        let res = await fetch('http://localhost:3000/books')
+        let booksData = await res.json();
+        console.log(booksData);
 
-let getBooks = () => {
-    fetch('http://localhost:3000/books')
-        .then(response => response.json())
-        .then(data => {
-            booksData = data;
-            console.log(booksData);
-            booksData.forEach(book => {
-                //display(book.title, book.price);
-                let card = document.createElement('div');
-                let title = document.createElement('h5');
-                let author = document.createElement('p');
-                let price = document.createElement('p');
-                let image = document.createElement('img');
-                card.append(image, title, author, price);
-                card.classList.add('card', 'col-', 'col-sm-4', 'col-md-3');
-                title.classList.add('card-title', 'fw-bold');
-                author.classList.add('card-author');
-                price.classList.add('card-price', 'fw-bold', 'text-success');
-                image.classList.add('card-image');
-                title.innerHTML = book.title;
-                author.innerHTML = book.author;
-                price.innerHTML = book.price;
-                image.src = book.image;
-                 
-                console.log(card)
+        booksData.forEach(book => {
+            //display(book.title, book.price);
+            let card = document.createElement('div');
+            let title = document.createElement('h5');
+            let author = document.createElement('p');
+            let price = document.createElement('p');
+            let image = document.createElement('img');
+            card.append(image, title, author, price);
+            card.classList.add('card', 'col-', 'col-sm-4', 'col-md-3');
+            title.classList.add('card-title', 'fw-bold');
+            author.classList.add('card-author');
+            price.classList.add('card-price', 'fw-bold', 'text-success');
+            image.classList.add('card-image');
+            title.innerHTML = book.title;
+            author.innerHTML = book.author;
+            price.innerHTML = book.price;
+            image.src = book.image;
 
-                card_row.append(card)
-            })
-            placeholders.remove();
+            //console.log(card)
+
+            card_row.append(card)
         })
-        .catch(err => console.error(err));
-
+        placeholders.remove();
+    } catch (error) {
+        console.log(error);
+    }
 }
 
 // Invoke the function to fetch data
