@@ -53,14 +53,11 @@ btn?.addEventListener('click', getBooks);
 
 let getSearchInput = () => {
     let keyword = search_input.value;
-    //console.log(booksData)
-
+    //console.log(booksData);
     booksData.forEach(book => {
+        console.log(book.title);
         if (book.title == keyword) {
             console.log('Found the book!');
-            // console.log(book.title);
-            // console.log(book.author);
-            // console.log(book.price);
             console.table(book.title, book.author, book.price);
         }
     })
