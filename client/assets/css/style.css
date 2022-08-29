@@ -2,7 +2,6 @@ body {
   background-color: rgb(234, 232, 232);
   margin: 0;
   padding: 0;
-  background-image: url("../images/image-op-1.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -20,10 +19,14 @@ body {
 
 .card {
   border-radius: 10px;
-  width: 18rem;
+  width: 16rem;
+  cursor: pointer;
 }
 .card img {
   object-fit: cover;
+}
+.card:hover {
+  box-shadow: 5px 5px 5px rgb(109, 108, 108);
 }
 
 .placeholder-img {

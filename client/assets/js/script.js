@@ -23,7 +23,7 @@ let getBooks = () => {
         .then(response => response.json())
         .then(data => {
             booksData = data;
-            // console.log(booksData);
+            console.log(booksData);
             booksData.forEach(book => {
                 //display(book.title, book.price);
                 let card = document.createElement('div');
@@ -42,7 +42,7 @@ let getBooks = () => {
                 price.innerHTML = book.price;
                 image.src = book.image;
                  
-                //console.log(card)
+                console.log(card)
 
                 card_row.append(card)
             })
