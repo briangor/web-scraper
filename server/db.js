@@ -1,16 +1,11 @@
 import mysql from 'mysql';
 import dotenv  from "dotenv";
+import { config }  from './config.js';
 dotenv.config();
  
-export const conn = mysql.createConnection({
-  host: process.env.DB_HOST,
-  user: process.env.DB_USER,
-  password: process.env.DB_PASS,
-  port: process.env.PORT,
-  database: process.env.DB
-});
+export const conn = mysql.createConnection(config.db);
 
-// connect 
+// connect to db
 conn.connect(function (err) {
   if (err) throw err;
   console.log("Database Connected!");

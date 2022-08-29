@@ -1,4 +1,6 @@
-const config = {
+import dotenv  from "dotenv";
+dotenv.config();
+export const config = {
     db: {
         host: process.env.DB_HOST,
         user: process.env.DB_USER,
@@ -7,4 +9,3 @@ const config = {
         database: process.env.DB
     },
 };
-module.exports = config; 

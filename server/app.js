@@ -2,7 +2,6 @@ import axios from 'axios';
 import cheerio from 'cheerio';
 //import fs from 'fs';
 import { conn } from './db.js';
-//const app = express();
 
 // URL of the page we want to scrape
 const url = 'https://textbookcentre.com/catalogue/category/books';

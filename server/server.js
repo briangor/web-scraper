@@ -8,7 +8,6 @@ app.use(cors());
 const hostname = 'briangor.xyz';
 const port = 3000;
 
-
 app.get('/', (req, res) => {
     res.send('REST API with Node.js!');
 });
