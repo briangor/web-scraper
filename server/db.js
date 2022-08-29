@@ -1,11 +1,13 @@
 import mysql from 'mysql';
-
+import dotenv  from "dotenv";
+dotenv.config();
+ 
 export const conn = mysql.createConnection({
-  host: "127.0.0.1",
-  user: "root2",
-  password: "#Password2",
-  port: "3306",
-  database: "bookdb"
+  host: process.env.DB_HOST,
+  user: process.env.DB_USER,
+  password: process.env.DB_PASS,
+  port: process.env.PORT,
+  database: process.env.DB
 });
 
 // connect 
