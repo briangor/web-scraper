@@ -18,6 +18,11 @@ let booksData = [];
 //     console.log(booksData);
 // }
 
+// image urls
+// https://edit.org/images/cat/book-covers-big-2019101610.jpg
+// https://d1csarkz8obe9u.cloudfront.net/posterpreviews/art-book-cover-design-template-34323b0f0734dccded21e0e3bebf004c_screen.jpg?ts=1637015198
+// https://assets.teenvogue.com/photos/5cd4384fac4d9e712fe2ebb0/2:3/w_1852,h_2778,c_limit/The%20Gravity%20of%20Us_.jpg
+
 let getBooks = () => {
     fetch('http://localhost:3000/books')
         .then(response => response.json())
