@@ -2,7 +2,6 @@ import axios from 'axios';
 import cheerio from 'cheerio';
 //import fs from 'fs';
 import { conn } from './db.js';
-//const app = express();
 
 // URL of the page we want to scrape
 const url = 'https://textbookcentre.com/catalogue/category/books';
@@ -15,7 +14,8 @@ async function scrapeData() {
         const { data } = await axios.get(url);
 
         // Load HTML we fetched in the previous line
-        const $ = cheerio.load(data);
+        //const $ = cheerio.load(data); --> Deprecated
+        const $ = load(data);
 
         // Select all the list items in plainlist class
         const bookItems = $(".product-item");
