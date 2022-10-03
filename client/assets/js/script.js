@@ -12,6 +12,7 @@ const search_btn = document.querySelector('.search-btn');
 const url = 'http://localhost:3000/books';
 let booksData = [];
 
+//todo: fix bugs in logic
 let getBooks = async () => {
     try {
         let res = await fetch('http://localhost:3000/books')
